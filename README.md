@@ -1,17 +1,34 @@
-# slot_machine_aristova
+# Лабораторная работа №9. Flutter: StatefulWidget и управление состоянием
 
-A new Flutter project.
+**Выполнилa:** Аристовa Анастасия Александровна
+**Группа:** ИСП-241
+**Дата сдачи:** 4.11.2026
 
-## Getting Started
+## Что изучили
 
-This project is a starting point for a Flutter application.
+1. Разница между StatelessWidget и StatefulWidget, а также назначение метода createState()
+2. Управление состоянием приложения с помощью метода setState()
+3. Подключение локальных изображений через конфигурационный файл pubspec.yaml
+4. Работа с асинхронным кодом (Future, async/await) и проверка свойства mounted для предотвращения ошибок при обновлении состояния после удаления виджета
+5. Создание плавных анимаций интерфейса с помощью AnimatedOpacity и AnimatedSwitcher
 
-A few resources to get you started if this is your first Flutter project:
+## Скриншот финального приложения
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+![Скриншот слот-машины](img/final.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Инструкция по запуску
+Для того чтобы запустить проект локально, надо:
+1. Убедиться, что установлен Flutter
+2. Клонировать репозиторий:
+   ```bash
+   git clone <URL>
+   cd slot_machine_aristova
+   ```
+3. Получить все необходимые зависимости
+```bash
+flutter pub get
+```
+4.Запустить приложение в браузере Chrome:
+```bash
+flutter run -d chrome
+```
